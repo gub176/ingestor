@@ -1,0 +1,95 @@
+# 日志文件
+*.log
+*.log.*
+*.log.*.gz
+log/
+logs/
+var/log/
+app/logs/
+runtime/logs/
+
+# 数据库相关日志
+pg_log/
+mysql_log/
+sqlite_log/
+
+# 应用特定日志
+device_telemetry.log
+battery_monitor.log
+alert_system.log
+telemetry_*.log
+debug_*.log
+error_*.log
+info_*.log
+warning_*.log
+
+# 临时文件
+*.tmp
+*.temp
+*.pid
+*.seed
+*.pid.lock
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*.local
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 构建产物
+dist/
+build/
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# 覆盖率报告
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# 数据文件
+*.db
+*.sqlite
+*.sqlite3
+*.db-journal
+*.dump
+
+# 缓存文件
+.cache/
+.pytest_cache/
+.mypy_cache/
